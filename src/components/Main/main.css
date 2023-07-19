@@ -125,6 +125,8 @@ a {
     margin: 0;
 }
 .buttonCopy {
+    font-size: 20px;
+    animation: fade 0.2s forwards 0.9s;
     position: relative;
     background: #de3647;
     border-radius: 15px;
@@ -139,7 +141,7 @@ a {
     width: 90%;
     height: 60px;
     border: #de3647 2px solid;
-    
+    opacity: 0;
     transition: all 0.2s linear;
 }
 .dashbord>a {

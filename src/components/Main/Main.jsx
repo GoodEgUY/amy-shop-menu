@@ -24,16 +24,16 @@ function Main() {
             <div className={modal ? "notification animNotif" : "notification"}>
               <p>номер картки успішно скопійовано</p>
             </div>
-            <a href="https://forms.gle/niy4LEhAn54ieree6">
+            <a href="https://instagram.com/amy_shop_kharkiv?igshid=MzRlODBiNWFlZA==">
               <div className="button">
                 <p>INSTAGRAM</p>
-                <img src="./images/icon1.png" alt="" className="ico" />
+                <img src="./images/inst.png" alt="" className="ico" />
               </div>
             </a>
-            <a href="https://github.com/GoodEgUY">
+            <a href="https://t.me/amy_shop_kh">
               <div className="button">
                 <p>TELEGRAM</p>
-                <img src="./images/icon1.png" alt="" className="ico" />
+                <img src="./images/tg.png" alt="" className="ico" />
               </div>
             </a>
 
@@ -44,7 +44,7 @@ function Main() {
             >
               
               <p>Сплатити</p>
-              <img src="./images/icon1.png" alt="" className="ico" />
+              <img src="./images/pay.png" alt="" className="ico" />
             </button>
           </div>
         </div>
