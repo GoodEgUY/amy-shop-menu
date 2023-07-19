@@ -37,14 +37,14 @@ function Main() {  const [ modal, setModal] = useState(false)
               </div>
             </a>
             
-              <a>
-              <div className="button" onClick={copyModal} onFocus={clipboard.copy}>
+              
+              <div className="buttonCopy" onClick={copyModal} onFocus={clipboard.copy}>
                
               <input ref={clipboard.target} value={"441114454822238"} readOnly hidden />
                 <p>Сплатити</p>
                 <img src="./images/icon1.png" alt="" className="ico" />
               </div>
-            </a>
+            
 
             
           </div>
