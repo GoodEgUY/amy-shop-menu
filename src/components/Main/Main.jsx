@@ -33,7 +33,9 @@ function Main() {
             <a href="https://t.me/amy_shop_kh">
               <div className="button">
                 <p>TELEGRAM</p>
+                
                 <img src="./images/tg.png" alt="" className="ico" />
+                <p className="sale">знижка 5%</p>
               </div>
             </a>
 

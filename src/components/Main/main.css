@@ -108,6 +108,17 @@ a {
     
     transition: all 0.2s linear;
 }
+.sale {
+    padding: 3px 7px;
+    background-color: #ac005f;
+    position:absolute;
+    border-radius: 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #ac005f;
+    left: -2px;
+    bottom: -25px;
+}
 .button:hover {
     background: #de36471c;
     border: #de3647 2px solid;
