@@ -7,6 +7,7 @@ function Main() {
   const clipboard = useClipboard();
   const copyModal = () => {
     setModal(true);
+    clipboard.copy('441114454822238')
     setTimeout(() => {
       setModal(false);
     }, 2000);
@@ -39,14 +40,9 @@ function Main() {
             <button
               className="buttonCopy"
               onClick={copyModal}
-              onFocus={clipboard.copy}
+              
             >
-              <input
-                ref={clipboard.target}
-                value={"441114454822238"}
-                readOnly
-                hidden
-              />
+              
               <p>Сплатити</p>
               <img src="./images/icon1.png" alt="" className="ico" />
             </button>
