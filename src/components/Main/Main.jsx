@@ -49,6 +49,7 @@ function Main() {
               <img src="./images/pay.png" alt="" className="ico" />
             </button>
           </div>
+        <p className="copyright">developed by <a href="https://instagram.com/thepugga?igshid=MzRlODBiNWFlZA==">PUGGA</a></p>
         </div>
       </div>
     </>
