@@ -9,6 +9,7 @@
     background-color: white;
 }
 .copyright {
+   z-index:4;
    font-family: Comf-M;
    font-size: 12px;
    color: black;
