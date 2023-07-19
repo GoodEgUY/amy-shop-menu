@@ -24,13 +24,13 @@ function Main() {
             <div className={modal ? "notification animNotif" : "notification"}>
               <p>номер картки успішно скопійовано</p>
             </div>
-            <a href="https://instagram.com/amy_shop_kharkiv?igshid=MzRlODBiNWFlZA==">
+            <a href="https://instagram.com/kalyanchik_kh?igshid=MzRlODBiNWFlZA==">
               <div className="button">
                 <p>INSTAGRAM</p>
                 <img src="./images/inst.png" alt="" className="ico" />
               </div>
             </a>
-            <a href="https://t.me/amy_shop_kh">
+            <a href="https://instagram.com/kalyanchik_kh?igshid=MzRlODBiNWFlZA==">
               <div className="button">
                 <p>TELEGRAM</p>
                 
