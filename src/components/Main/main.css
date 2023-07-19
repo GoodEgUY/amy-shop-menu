@@ -23,7 +23,7 @@ a {
     animation: notif 3s ease-in-out forwards;
 }
 .notification {
-    
+    z-index: 3;
     position: absolute;
     bottom: 0;
     left: 0;
