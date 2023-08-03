@@ -7,7 +7,7 @@ function Main() {
   const clipboard = useClipboard();
   const copyModal = () => {
     setModal(true);
-    clipboard.copy('441114454822238')
+    clipboard.copy('4441114454822238')
     setTimeout(() => {
       setModal(false);
     }, 2000);
