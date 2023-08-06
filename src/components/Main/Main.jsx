@@ -30,7 +30,7 @@ function Main() {
                 <img src="./images/inst.png" alt="" className="ico" />
               </div>
             </a>
-            <a href="https://instagram.com/kalyanchik_kh?igshid=MzRlODBiNWFlZA==">
+            <a href="https://t.me/kalyanchik_kh">
               <div className="button">
                 <p>TELEGRAM</p>
                 
