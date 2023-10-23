@@ -18,19 +18,17 @@ function Main() {
         <div className="wrapper">
           <img src="./images/smoke2.png" alt="" className="smokeImg" />
           <img src="./images/smoke1.png" alt="" className="smokeImg2" />
-          <img src="./images/IMG_8634.png" alt="" className="ava" />
+          <img src="./images/logo.png" alt="" className="ava" />
 
           <div className="dashbord">
-            <div className={modal ? "notification animNotif" : "notification"}>
-              <p>номер картки успішно скопійовано</p>
-            </div>
-            <a href="https://instagram.com/kalyanchik_kh?igshid=MzRlODBiNWFlZA==">
+            
+            <a href="https://instagram.com/amy_shop_kharkiv?igshid=MzRlODBiNWFlZA==">
               <div className="button">
                 <p>INSTAGRAM</p>
                 <img src="./images/inst.png" alt="" className="ico" />
               </div>
             </a>
-            <a href="https://t.me/kalyanchik_kh">
+            <a href="https://t.me/amy_shop_kh">
               <div className="button">
                 <p>TELEGRAM</p>
                 
@@ -44,7 +42,9 @@ function Main() {
               onClick={copyModal}
               
             >
-              
+              <div className={modal ? "notification animNotif" : "notification"}>
+              <p>номер картки успішно скопійовано</p>
+            </div>
               <p>Сплатити</p>
               <img src="./images/pay.png" alt="" className="ico" />
             </button>
