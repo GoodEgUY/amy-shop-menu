@@ -18,7 +18,7 @@ function Main() {
         <div className="wrapper">
           <img src="./images/smoke2.png" alt="" className="smokeImg" />
           <img src="./images/smoke1.png" alt="" className="smokeImg2" />
-          <img src="./images/logo2.png" alt="" className="ava" />
+          <img src="./images/logo2.PNG" alt="" className="ava" />
 
           <div className="dashbord">
             
