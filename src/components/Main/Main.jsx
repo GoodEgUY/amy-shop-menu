@@ -10,7 +10,7 @@ function Main() {
     clipboard.copy('4441114454822238')
     setTimeout(() => {
       setModal(false);
-    }, 2000);
+    }, 6000);
   };
   return (
     <>
@@ -21,9 +21,7 @@ function Main() {
           <img src="./images/logo.png" alt="" className="ava" />
 
           <div className="dashbord">
-            <div className={modal ? "notification animNotif" : "notification"}>
-              <p>номер картки успішно скопійовано</p>
-            </div>
+            
             <a href="https://instagram.com/amy_shop_kharkiv?igshid=MzRlODBiNWFlZA==">
               <div className="button">
                 <p>INSTAGRAM</p>
@@ -44,7 +42,9 @@ function Main() {
               onClick={copyModal}
               
             >
-              
+              <div className={modal ? "notification animNotif" : "notification"}>
+              <p>номер картки успішно скопійовано</p>
+            </div>
               <p>Сплатити</p>
               <img src="./images/pay.png" alt="" className="ico" />
             </button>
