@@ -44,7 +44,9 @@ function Main() {
               onClick={copyModal}
               
             >
-              
+              <div className={modal ? "notification animNotif" : "notification"}>
+              <p>номер картки успішно скопійовано</p>
+            </div>
               <p>Сплатити</p>
               <img src="./images/pay.png" alt="" className="ico" />
             </button>
