@@ -26,6 +26,7 @@ a {
 }
 .animNotif {
   animation: notif 3s ease-in-out forwards;
+  display:flex;
 }
 .notification {
   z-index: 4;
@@ -37,7 +38,7 @@ a {
   width: 100%;
   height: 100%;
   transform: translateY(50px);
-  display: flex;
+  display: none;
   opacity: 0;
   align-items: center;
   justify-content: center;
