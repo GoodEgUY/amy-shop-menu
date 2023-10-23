@@ -10,7 +10,7 @@ function Main() {
     clipboard.copy('4441114454822238')
     setTimeout(() => {
       setModal(false);
-    }, 2000);
+    }, 6000);
   };
   return (
     <>
