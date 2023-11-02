@@ -177,6 +177,10 @@ a {
   position: absolute;
   width: 30px;
 }
+.mono {
+  border-radius: 5px;
+}
+
 .dashbord {
   z-index: 2;
   height: 350px;
