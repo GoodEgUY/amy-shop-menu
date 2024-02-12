@@ -37,7 +37,7 @@ function Main() {
               </div>
             </a>
 
-            <a href="">
+            <a href="www.google.com">
               <div className="button">
                 <p>MONOBANK</p>
 
