@@ -37,13 +37,13 @@ function Main() {
               </div>
             </a>
 
-            <a href="https://send.monobank.ua/3Yzap793k3">
+            {/* <a href="https://send.monobank.ua/3Yzap793k3">
               <div className="button">
                 <p>MONOBANK</p>
 
                 <img src="./images/mono-ico.jpg" alt="" className="ico mono" />
               </div>
-            </a>
+            </a> */}
             <button className="buttonCopy" onClick={copyModal}>
               <div
                 className={modal ? "notification animNotif" : "notification"}
