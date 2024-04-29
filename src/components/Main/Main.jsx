@@ -7,7 +7,7 @@ function Main() {
   const clipboard = useClipboard();
   const copyModal = () => {
     setModal(true);
-    clipboard.copy('5375411413759783')
+    clipboard.copy('4441114454822238')
     setTimeout(() => {
       setModal(false);
     }, 6000);
@@ -37,7 +37,7 @@ function Main() {
               </div>
             </a>
 
-            <a href="https://send.monobank.ua/7jj96HgGcu">
+            <a href="https://send.monobank.ua/3Yzap793k3">
               <div className="button">
                 <p>MONOBANK</p>
 
