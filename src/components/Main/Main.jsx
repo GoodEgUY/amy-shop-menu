@@ -37,20 +37,20 @@ function Main() {
               </div>
             </a>
 
-            <a href="https://send.monobank.ua/2trG9Rn2VC">
+            {/*<a href="https://send.monobank.ua/2trG9Rn2VC">
               <div className="button">
                 <p>MONOBANK</p>
 
                 <img src="./images/mono-ico.jpg" alt="" className="ico mono" />
               </div>
-            </a> 
+            </a> */}
             <button className="buttonCopy" onClick={copyModal}>
               <div
                 className={modal ? "notification animNotif" : "notification"}
               >
                 <p>номер картки успішно скопійовано</p>
               </div>
-              <p>Інші Банки</p>
+              <p>Скопіювати картку</p>
               <img src="./images/pay.png" alt="" className="ico" />
             </button>
           </div>
