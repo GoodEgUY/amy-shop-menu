@@ -50,7 +50,7 @@ function Main() {
               >
                 <p>номер картки успішно скопійовано</p>
               </div>
-              <p>Скопиювати картку</p>
+              <p>Скопіювати картку</p>
               <img src="./images/pay.png" alt="" className="ico" />
             </button>
           </div>
