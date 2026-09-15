@@ -7,7 +7,7 @@ function Main() {
   const clipboard = useClipboard();
   const copyModal = () => {
     setModal(true);
-    clipboard.copy('4035200043166641')
+    clipboard.copy('4035200043596409')
     setTimeout(() => {
       setModal(false);
     }, 6000);
@@ -28,7 +28,7 @@ function Main() {
                 <img src="./images/inst.png" alt="" className="ico" />
               </div>
             </a>
-            <a href="https://t.me/kalyanchik_kh">
+            <a href="https://t.me/Kalyanchik_kharkiv">
               <div className="button">
                 <p>TELEGRAM</p>
                 
